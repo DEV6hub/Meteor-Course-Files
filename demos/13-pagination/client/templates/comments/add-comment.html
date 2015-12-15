@@ -1,0 +1,10 @@
+<template name="addComment">
+  <form class="comment form">
+    <div class="form-group {{errorClass 'body'}}">
+      <label for="body" class="control-label">Add a Comment</label>
+      <textarea name="body" id="body" rows="3" class="form-control"></textarea>
+      <span class="help-block">{{errorMessage 'body'}}</span>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Comment</button>
+  </form>
+</template>

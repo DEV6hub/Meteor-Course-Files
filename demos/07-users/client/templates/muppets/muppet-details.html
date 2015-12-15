@@ -1,0 +1,14 @@
+<template name="muppetDetails">
+  <div class="muppet details">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{imgPath}}" alt="{{name}}">
+      </div>
+      <div class="col-sm-8">
+        <h1>{{name}}</h1>
+        <h3>Animal: {{animalType}}</h3>
+        <a class="btn btn-default" href="{{pathFor 'editMuppet'}}">Edit {{name}}</a>
+      </div>
+    </div>
+  </div>
+</template>

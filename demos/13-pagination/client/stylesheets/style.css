@@ -1,0 +1,94 @@
+body {
+  margin-top: 50px;
+  min-height: 100%;
+  min-width: 300px;
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  min-width: 300px;
+}
+
+.navbar-fixed-top {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-default {
+  background-color: #E2FFDF;
+}
+
+.navbar-brand {
+  padding: 0.5em;
+}
+
+.navbar-brand-image {
+  height: 100%;
+}
+
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+
+.login {
+  margin: 1em;
+}
+
+.muppet,
+.comment {
+  background-color: #fff;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.muppet h3 {
+  margin-top: 10px;
+}
+
+.muppet.details {
+  padding: 1em;
+}
+
+.muppet.details img {
+  width: 100%;
+}
+
+.alert-page {
+  text-align: center;
+}
+
+.not-found img {
+  max-width: 100%;
+  padding-left: 10%;
+}
+
+.access-denied img {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.errors {
+  width: 40%;
+  min-width: 170px;
+  max-width: 400px;
+  position: absolute;
+  right: 0;
+  margin: 0.5em;
+}
+
+.alert {
+  margin-bottom: 1em;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.comments {
+  margin-left: 2em;
+}
+
+.load-more {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  background-color: #d4d4d4;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}

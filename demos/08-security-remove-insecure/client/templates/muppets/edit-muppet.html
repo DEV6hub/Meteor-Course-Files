@@ -1,0 +1,19 @@
+<template name="editMuppet">
+  <h1>Edit Muppet</h1>
+  <form>
+    <div class="form-group">
+      <label for="name" class="control-label">Name</label>
+      <input type="text" class="form-control" id="name" name="name" value="{{name}}">
+    </div>
+    <div class="form-group">
+      <label for="animalType" class="control-label">Animal Type</label>
+      <input type="text" class="form-control" id="animalType" name="animalType" value="{{animalType}}">
+    </div>
+    <div class="form-group">
+      <label for="imgPath" class="control-label">Image Path</label>
+      <input type="text" class="form-control" id="imgPath" name="imgPath" value="{{imgPath}}">
+    </div>
+    <button type="submit" class="btn btn-primary">Update Muppet</button>
+    <button type="submit" class="btn btn-danger" id="delete">Delete Muppet</button>
+  </form>
+</template>

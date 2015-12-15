@@ -1,0 +1,28 @@
+<template name="muppetDetails">
+  <div class="muppet details">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{imgPath}}" alt="{{name}}">
+      </div>
+      <div class="col-sm-8">
+        <h1>{{name}}</h1>
+        <h3>Animal: {{animalType}}</h3>
+        <p>Submitted by {{user}} on {{submitted}}</p>
+        {{#if ownsMuppet}}
+          <a class="btn btn-default" href="{{pathFor 'editMuppet'}}">Edit {{name}}</a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  <div class="comments">
+    <h3>Comments</h3>
+    {{#each comments}}
+      {{> comment}}
+    {{/each}}
+    {{#if currentUser}}
+      {{> addComment}}
+    {{else}}
+      <p> Please sign in to make a comment.</p>
+    {{/if}}
+  </div>
+</template>
