@@ -1,0 +1,27 @@
+<template name="filmEdit">
+  <form>
+    <h4>Add film</h4>
+    <div class="form-group {{errorClass 'title'}}">
+      <label for="title">title</label>
+      <input class="form-control" name="title" type="text" value="{{title}}">
+      <span class="help-block">{{errorMessage 'title'}}</span>
+    </div>
+    <div class="form-group {{errorClass 'year'}}">
+      <label for="year">year</label>
+      <input class="form-control" name="year" type="text" value="{{year}}">
+      <span class="help-block">{{errorMessage 'year'}}</span>
+    </div>
+    <div class="form-group {{errorClass 'director'}}">
+      <label for="director">director</label>
+      <input class="form-control" name="director" type="text" value="{{director}}">
+      <span class="help-block">{{errorMessage 'director'}}</span>
+    </div>
+    <div class="form-group {{errorClass 'plot'}}">
+      <label for="plot">plot</label>
+      <input class="form-control" name="plot" type="text" value="{{plot}}">
+      <span class="help-block">{{errorMessage 'plot'}}</span>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-default">
+    <a class="delete btn btn-default" href="#">Delete</a>
+  </form>
+</template>

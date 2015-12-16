@@ -1,0 +1,14 @@
+<template name="filmsList">
+  <div class="jumbotron">
+    <h1 class="display-3">Hello, moovie lovers!</h1>
+    <p class="lead">Welcome to Moovie, a film forum app where you can add and comment on films you love and films you <i>love</i> to hate.</p>
+  </div>
+  <div class="films">
+    {{#each films}}
+      {{> filmItem}}
+    {{/each}}
+    {{#if nextPath}}
+      <a class="btn btn-primary" href="{{nextPath}}">Show more</a>
+    {{/if}}
+  </div>
+</template>

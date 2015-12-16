@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Lora', serif !important;
+}
+
+.films {
+  padding-top: 10px;
+}
+
+.accent {
+  color: #A77139;
+}
+
+.clearfix {
+  padding-bottom: 20px;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.container {
+  position: relative;
+  top: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.navbar-brand-image {
+  width: 150px;
+  margin-top: -11px;
+}
+
+.navbar-toggle {
+  border-color: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background-color: transparent !important;
+}
+
+.navbar-toggle:focus {
+  background-color: white !important;
+}
+
+.navbar-form-button:focus {
+  box-shadow: 0 0 5px rgba(211, 130, 48, 0.87);
+  border: 1px solid rgba(211, 130, 48, 0.87);
+}
+
+.navbar-nav > li > a {
+  float: right;
+}
+
+.jumbotron h1 {
+  color: #FFA500;
+}
+
+.jumbotron p {
+  color: #808080;
+}
+
+a {
+  color: #A77139;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+a:focus {
+  color: #A77139;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.thumbnail {
+  width: 50% !important;
+  height: auto;
+  margin-top: 10px;
+  background-color: transparent !important;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comments {
+  margin-top: 10px;
+  color: white;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.date {
+  color: #808080;
+}
+
+.author {
+  color: #A77139;
+}
+
+.http-response-table {
+  display: none;
+}
+
+.icon-bar {
+  background-color: black !important;
+}
+
+h1 {
+  color: white;
+  text-transform: lowercase;
+}
+
+.filmDescription {
+  width: 50% !important;
+}
+
+.form {
+  padding-top: 10px;
+}
+
+.add-film-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+  background-color: black;
+  border-radius: 0;
+  text-align: center;
+  color: white;
+}
+
+.dropdown-menu .form-control {
+  color: #555;
+}
+
+.add_film {
+  padding-right: 20px;
+}
+
+.add-film-form-input {
+  background-color: transparent;
+  border-radius: 0 !important;
+  color: white !important;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  outline: none;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 5px rgba(211, 130, 48, 0.87) !important;
+  border: 1px solid rgba(211, 130, 48, 0.87) !important;
+}
+
+.btn {
+  outline: none !important;
+  width: 100%;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-block {
+  outline: none !important;
+  width: 100%;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: #A77139;
+  color: white;
+  border: none;
+}
+
+.btn-block:active {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.btn-block:active:focus {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.btn-block:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.btn-block:focus {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.btn-primary {
+  background-color: #FFA500;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #FFA500;
+  color: black;
+}
+
+.btn-primary:focus {
+  background-color: #FFA500;
+  color: black;
+}
+
+.btn-primary:active:focus {
+  background-color: #FFA500;
+  color: black;
+}
+
+#login-dropdown-list input {
+  background-color: white;
+  text-align: left;
+}
+
+#login-dropdown-list .btn {
+  margin-top: 5px;
+  background-color: orange;
+  border: none
+}
+
+#login-dropdown-list .dropdown-menu {
+  background-color: white;
+  margin-right: 10px;
+}
+
+#login-dropdown-list a {
+  margin-right: 10px;
+}
+
+#login-buttons-password {
+  color: white;
+}
+
+#login-buttons-password:hover {
+  color: black;
+}
+
+#back-to-login-link {
+  color: white;
+}
+
+#back-to-login-link:hover {
+  color: white;
+}
+
+a#signup-link {
+  color: black;
+}
+
+.comments-count {
+  float: right;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.spinner {
+  margin-top: 50px;
+}
+
+@media(max-width: 767px) {
+  #login-dropdown-list .dropdown-menu {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

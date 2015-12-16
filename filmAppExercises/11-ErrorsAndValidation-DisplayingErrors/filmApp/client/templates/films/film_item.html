@@ -1,0 +1,17 @@
+<template name="filmItem">
+  <div class="films">
+    <div>
+      <h4><a href="{{pathFor "filmPage"}}">{{title}} ({{year}})</a></h4>
+      <h5>{{director}}</h5>
+      <p>{{plot}}</p>
+    </div>
+    <div>
+      <hr>
+      <p>submitted by {{author}} on {{submitted}}</p>
+    </div>
+    <a href="{{pathFor "filmPage"}}" class="btn btn-default">Discuss</a>
+    {{#if ownsFilm}}
+      <a href="{{pathFor "filmEdit"}}" class="btn btn-default">Edit</a>
+    {{/if}}
+  </div>
+</template>

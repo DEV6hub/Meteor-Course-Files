@@ -1,0 +1,10 @@
+<template name="commentSubmit">
+  <form name="comment" class="form comment-form">
+    <div class="form-group">
+      <label for="body">Comment on this film</label>
+      <textarea name="body" rows="3" class="form-control"></textarea>
+      <span class="help-block">{{errorMessage 'body'}}</span>
+    </div>
+    <button type="submit" class="btn btn-primary"> Add Comment</button>
+  </form>
+</template>

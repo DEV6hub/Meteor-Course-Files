@@ -1,0 +1,10 @@
+<template name="filmsList">
+  <div class="films">
+    {{#each films}}
+      {{> filmItem}}
+    {{/each}}
+    {{#if nextPath}}
+      <a class="btn btn-primary" href="{{nextPath}}">Show more</a>
+    {{/if}}
+  </div>
+</template>

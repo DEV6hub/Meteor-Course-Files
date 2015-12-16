@@ -1,0 +1,15 @@
+<template name="filmPage">
+  {{> filmItem}}
+
+  <ul class="comments">
+    {{#each comments}}
+      {{> commentItem}}
+    {{/each}}
+  </ul>
+
+  {{#if currentUser}}
+    {{> commentSubmit}}
+  {{else}}
+    <p>Please log in to leave a comment on this film.</p>
+  {{/if}}
+</template>
