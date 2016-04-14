@@ -61,7 +61,7 @@ if (Films.find().count() === 0) {
       title: "Test film #" + i,
       year: "1955",
       director: "Alfred Hitchcock",
-      plor: "this",
+      plot: "this",
       author: frank.profile.name,
       userId: frank._id,
       submitted: new Date(now - i * 3600 * 1000),
